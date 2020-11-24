@@ -5,7 +5,8 @@ Install chromium webdriver(linux):
 ```
 sudo apt install chromium-chromedriver
 ```
-If other platform, check this [link](https://chromedriver.chromium.org/getting-started).
+If other platform, check this [link](https://chromedriver.chromium.org/getting-started). The webdrive you download should be available in `PATH` variable. The easiest way is to put it in the main folder of this project alongside the python script.
+
 
 Create python virtual environment:
 ```
