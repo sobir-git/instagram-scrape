@@ -12,12 +12,12 @@ Create python virtual environment:
 python3 -m venv instagram_scraper_env
 source instagram_scraper_env/bin/activate
 # install requirements
-python -m pip install selenium==3.141.0 requests==2.24.0 coloredlogs==14.0 enlighten==1.6.0
+python -m pip install -r requirements.txt
 ```
 
 ## Run Example
 ```
-python instascrape.py --url https://www.instagram.com/explore/locations/1322233317896731/masjid-e-nabwi-saw/ --visual --login <my.username> --password <my.password> --max-scrolls 10000 -o output.csv --tags hajj ramadan
+python instascrape.py --url https://www.instagram.com/explore/locations/103432344572410/cosme/ --visual --login <my.username> --password <my.password> --max-scrolls 10000 -o output.csv --tags dessert pastry culinary 
 ```
 
 

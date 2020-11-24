@@ -95,7 +95,7 @@ def parse_args():
         "-o",
         "--output",
         dest='output',
-        help="Output file",
+        help="Output file, a csv containing url to the scraped links with associated tags",
     )
 
     parser.add_argument(
@@ -270,7 +270,7 @@ def main():
     logger = init_logger()
     logger.info(f"url: {args.url}")
 
-    logger.info(f"filter tags: {' | '.join(args.tags)}")
+    logger.info(f"filter tags [{len(args.tags)}]: {' | '.join(args.tags)}")
     if any(('#' in t for t in args.tags)):
         logger.error('Please specify filter tags without `#`')
         exit()
