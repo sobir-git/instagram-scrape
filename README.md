@@ -1,4 +1,5 @@
 # Instagram scraper
+Scrape instagram posts by location and tags. It takes an instagram location url to start with, then additional tags to select posts that contain them.
 
 ## Setup
 Install chromium webdriver(linux):
