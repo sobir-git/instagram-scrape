@@ -18,6 +18,8 @@ python -m pip install -r requirements.txt
 ```
 
 ## Run Example
+The following command scrapes posts from the location of a restaurant given by url `https://www.instagram.com/explore/locations/103432344572410/cosme/`,
+that contain any of the following tags: #dessert #pastry #culinary
 ```
 python instascrape.py --url https://www.instagram.com/explore/locations/103432344572410/cosme/ --visual --login <my.username> --password <my.password> --max-scrolls 10000 -o output.csv --tags dessert pastry culinary 
 ```
